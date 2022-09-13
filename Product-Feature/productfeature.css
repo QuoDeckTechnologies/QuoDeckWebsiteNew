@@ -1,12 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  width: 1520px;
+  margin:0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
    
                             /*  -----> div-1  <-----  */
 
 .container-fluid {
   background-color: #454545;
-  width: 1500px;
+  width: 1520px;
   height: 650px;
+}
+
+.container-fluid .dropdown-item:hover {
+  background-color: lightblue;
+}
+
+.nav-item , .nav-link ,.navbar-nav{
+  margin-left: -15%;
+  justify-content: space-between;
 }
 
 img {
@@ -223,7 +239,7 @@ p1 {
 .container1 {
   position: absolute;
   background-color: white;
-  width: 1152px;
+  width: 1520px;
   height: 300px;
   margin: 100px;
   left: 0px;
@@ -232,51 +248,48 @@ p1 {
 
 .brands {
   position: absolute;
-  left: 80px;
-  /* top: 69px; */
+  left: 70px;
+  top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .flipkart {
   position: absolute;
   width: 127.76px;
   height: 98px;
-  left: 69px;
-  top: 70px;
+  left: -100px;
 }
 .isb {
   position: absolute;
   width: 126.75px;
   height: 98px;
-  left: 250.07px;
-  top: 70px;
+  left: 150px;
 }
 .myntra {
   position: absolute;
   width: 126.75px;
   height: 97px;
-  left: 423.09px;
-  top: 72px;
+  left: 400px;
 }
 .starsports {
   position: absolute;
   width: 125.74px;
   height: 98px;
-  left: 594.1px;
-  top: 70px;
+  left: 650px;
 }
 .vi {
   position: absolute;
   width: 126.75px;
   height: 98px;
-  left: 765.12px;
-  top: 87px;
+  left: 900px;
 }
 .unilever {
   position: absolute;
   width: 127.76px;
   height: 99px;
-  left: 956.24px;
-  top: 69px;
+  left: 1150px;
 }
 
 .customers {
@@ -301,7 +314,7 @@ p1 {
                         /* -----> div-3 <----- */
 .container2 {
     position: absolute;
-    width: 1500px;
+    width: 1520px;
     height: 900px;
     left: -1px;
     top: 980px;
@@ -414,7 +427,7 @@ p1 {
                                 /* -----> div-4 <----- */
 .cards-1{
     position: absolute;
-    width: 1500px;
+    width: 1520px;
     height: 590px;
     left: 1px;
     top: 1900px;
@@ -474,17 +487,10 @@ p1 {
                               /* -----> div-5 <----- */
 .faq {
   position: absolute;
-  width: 1500px;
+  width: 1520px;
   height: 680px;
   left: 4px;
   top: 2500px;
-}
-.accordion {
-  position: absolute;
-  top: 200px;
-  width: 1400px;
-  left: 50px;
-  color: #121212;
 }
 
 .faq .header {
@@ -504,8 +510,20 @@ p1 {
   color: #121212;
 }
 
+.accordion {
+  position: absolute;
+  top: 200px;
+  width: 1400px;
+  height: 50px;
+  left: 50px;
+  color: #121212;
+}
+
+.accordion .accordion-body {
+  margin-left: 5%;
+}
+
 .accordion-item .accordion-header {
-  /* position: absolute; */
   margin-left: 5%;
   margin-top: 2%;
   margin-right: 2%;
@@ -520,49 +538,12 @@ p1 {
   transform: rotate(0.01deg);
 }
 
-.accordion-header .arrow {
-position: absolute;
-width: 19.97px;
-right: 80.86px;
-/* top: 177px; */
-bottom: 464px;
-margin-left: 95%;
-}
-.accordion-header .arrow1 {
-position: absolute;
-width: 19.97px;
-right: 80.86px;
-/* top: 177px; */
-margin-bottom: 5%;
-bottom: 464px;
-margin-left: 95%;
-}
-.accordion-header .arrow2 {
-position: absolute;
-width: 19.97px;
-right: 80.86px;
-/* top: 177px; */
-margin-bottom: 5%;
-bottom: 464px;
-margin-left: 95%;
-}
-.accordion-header .arrow3 {
-position: absolute;
-width: 19.97px;
-right: 80.86px;
-/* top: 177px; */
-margin-bottom: 5%;
-bottom: 464px;
-margin-left: 95%;
-}
-.accordion-header .arrow4 {
-position: absolute;
-width: 19.97px;
-right: 80.86px;
-/* top: 177px; */
-margin-bottom: 5%;
-bottom: 464px;
-margin-left: 95%;
+.accordion-button {
+  font-family: "Roboto";
+  font-style: normal;
+  color: #121212;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 
@@ -570,7 +551,7 @@ margin-left: 95%;
 
 .ellipse .semi {
   position: absolute;
-  width: 1500px;
+  width: 1520px;
   height: 300px;
   left: 0px;
   top: 0px;
@@ -584,11 +565,10 @@ margin-left: 95%;
   top: 50px;
   font-family: 'Oswald Regular';
   font-style:normal;
-  font-weight:400;
+  font-weight:700;
   font-size: 35px;
-  line-height: 54px;
+  line-height: 36px;
   text-align: center;
-  text-transform: uppercase;
   color: #333333;
 }
 
@@ -638,10 +618,10 @@ margin-left: 95%;
     background-color: #454545;
     box-sizing: border-box;
     position: absolute;
-    width: 1500px;
+    width: 1520px;
     height: 900px;
     left: -48px;
-    top: 3150px;
+    top: 3250px;
     background: #454545;
     border: 1px solid #454545;
     margin: 50px; 
@@ -658,12 +638,10 @@ margin-left: 95%;
 }
 .footer2 {
     position: absolute;
-    /* width: 1500px; */
     height: 0px;
     left: 17px;
     top: 750px;
     display: flex; 
-    /* margin: 18px;  */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -740,7 +718,6 @@ margin-left: 95%;
     width: 24px;
     height: 22.49px;
     left: 410px;
-    /* top: 6916px; */
   }
   
   .twitter {
@@ -748,7 +725,6 @@ margin-left: 95%;
     width: 24px;
     height: 22.49px;
     left: 480px;
-    /* top: 6916px; */
   }
   
   .instagram {
@@ -756,7 +732,6 @@ margin-left: 95%;
     width: 24px;
     height: 22.49px;
     left: 540px;
-    /* top: 6916px; */
   }
   
   .youtube {
@@ -764,7 +739,6 @@ margin-left: 95%;
     width: 24px;
     height: 22.49px;
     left: 610px;
-    /* top: 6916px; */
   }
   
   .linkedin {
@@ -772,44 +746,76 @@ margin-left: 95%;
     width: 24px;
     height: 22.49px;
     left: 670px;
-    /* top: 6916px; */
   }
 
   
 
-                                /*******   RESPONSIVE  *******/
+                                 /*******   RESPONSIVE  *******/
 
-@media screen and (max-width:576px) {
-   html,body {
-    width: 100%;
-    height: 100%;
-    margin: 0%;
-    padding: 0%;
-  }
-  .container-fluid {
-    display: flex;
-    flex-direction: row;
-  }
-  .container1 img {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .container2 {
-    display: block;
-  }
-  .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(576px,1fr));
-    gap: 20px;
-  }
-  .cards-1 .content-1 h4  {
-    font-size: 50px;
-    display: flex;
-  }
-  .cards-1 .content-1 .cards-overlay .card-1,.card-2,.card-3,.card-4 {
-    display: flex;
-    flex-direction: row;
-    width: auto;
-  }
+@media screen and (max-width:425px) {
+  html,body {
+   /* width: 100%;
+   height: 100%;
+   padding: 0px;
+   margin: 0px;
+   overflow-x: hidden;
+   display: flex; */
+ }
+ .container-fluid {
+   display: flex; 
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 10px;
+ }
+ .container-fluid .button3,.button4 {
+   display: flex;
+   flex-direction: row;
+   margin-left: 50%;
+ }
+ .container1 .brands img {
+   display: grid;
+   flex-direction: row;
+   flex-wrap: wrap;
+ }
+ .container2 {
+   display: block;
+ }
+ .cards {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(425px,1fr));
+   gap: 20px;
+ }
+ .cards-1 .content-1 h4  {
+   font-size: 40px;
+   display: flex;
+ }
+ .cards-1 .cards-overlay {
+   display:flex;;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+ }
+ .footer {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+ }
+ .footer .ellipse{
+   width: 150px;
+   margin: 0;
+   height: 200px;
+ }
+
+ .footer .footer1,.list-header{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+ }
+ .footer2 li , .icons{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+ }
 }
