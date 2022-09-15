@@ -1288,23 +1288,101 @@ li {
   }
                                     /* -----> div-1 <----- */
   .container-fluid {
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 10px;
-    position: absolute;
+    height: 2600px;
+  }
+  .container-fluid .navbar img {
+   width: 200px;
+   height: 100px;
+   top: 5pc;
   }
   .container-fluid nav {
-    margin-top: 100%;
-    margin-left: 50%;
-    position: absolute;
+    background-repeat: no-repeat;
    }
+   .container-fluid h4 {
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 70px;
+    width: 900px;
+    top: 20pc;
+    left: 35pc;
+   }
+   .container-fluid p {
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    width: 1000px;
+    text-align: center;
+    left: 20pc;
+    top: 30pc;
+   }
+   .container-fluid p1 {
+    width: 1000px;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 80px;
+    text-align: center;
+    left: 20pc;
+    top: 45pc;
+   }
+   .container-fluid p2 {
+    width: 1000px;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 80px;
+    text-align: center;
+    left: 20pc;
+    top: 70pc;
+   }
+   .container-fluid .contents li {
+    width: 800px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 80px;
+   }
+   .contents li img {
+    width: 50px;
+    height: 50px;
+   }
+   .container-fluid .contents .gami{
+    top: 80pc;
+    left: 30pc;
+   }
+   .container-fluid .contents .dist{
+    top: 85pc;
+    left: 30pc;
+   }
+   .container-fluid .contents .auth{
+    top: 90pc;
+    left: 30pc;
+   }
+   .container-fluid .contents .brand{
+    top: 95pc;
+    left: 30pc;
+   }
+   .container-fluid .contents .int{
+    top: 100pc;
+    left: 30pc;
+   }
+   .container-fluid .button3 {
+    width: 400px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    top: 110pc;
+    left: 35pc;
+   }
+   .container-fluid .enterprise-logo {
+    width: 600px;
+    height: 600px;
+    top: 120pc;
+    left: 30pc;
+   }
+
 
                                      /* -----> div-2 <----- */
    .container1 {
     width: 100%;
-    margin-right: 0%;
+    margin-top: 550%;
    }
   .container1 .brands img {
     display: flex;
@@ -1326,18 +1404,304 @@ li {
                                   /* -----> div-3 <----- */
   .Gamification, .Distribution,
   .Authoring,.Branding,.Interactivity {
-    margin-top: 500%;
-    display: flex;
+    /* margin-top: 1000%; */
+    background-color: white;
+  }
+  .Gamification {
+    height: 1000px;
+    margin-top: 1000%;
+  }
+  .Gamification  .content-1 h4{
+    width: 900px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 40px;
+    left: 30pc;
+  }
+  .Gamification  .content-1 p {
+    width: 900px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 8pc;
+    left: 20pc;
+  }
+  .Gamification  .content-1 span {
+    width: 900px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .Gamification .content-1 ul .li-1 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 30pc;
+    left: 10pc;
+  }
+  .Gamification .content-1 ul .li-2 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 35pc;
+    left: 10pc;
+  }
+  .Gamification .content-1 ul .li-3 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 40pc;
+    left: 10pc;
+  }
+  .Gamification .scale {
+    width: 700px;
+    height: 500px;
+    top: 50pc;
+    left: 20pc;
+  }
+  .Distribution {
+    height: 1000px;
+    margin-top: 1250%;
+  }
+  .Distribution  .content-2 h4{
+    width: 900px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 40px;
+    left: 30pc;
+  }
+  .Distribution  .content-2 p {
+    width: 900px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 8pc;
+    left: 20pc;
+  }
+  .Distribution  .content-2 span {
+    width: 900px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .Distribution .content-2 ul .li-1 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 30pc;
+    left: 10pc;
+  }
+  .Distribution .content-2 ul .li-2 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 35pc;
+    left: 10pc;
+  }
+  .Distribution .content-2 ul .li-3 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 40pc;
+    left: 10pc;
+  }
+  .Distribution .security {
+    width: 700px;
+    height: 500px;
+    top: 50pc;
+    left: 20pc;
+  }
+  .Authoring {
+    height: 1000px;
+    margin-top: 1500%;
+  }
+  .Authoring  .content-3 h4{
+    width: 900px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 40px;
+    left: 30pc;
+  }
+  .Authoring  .content-3 p {
+    width: 900px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 8pc;
+    left: 20pc;
+  }
+  .Authoring  .content-3 span {
+    width: 900px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .Authoring .content-3 ul .li-1 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 30pc;
+    left: 10pc;
+  }
+  .Authoring .content-3 ul .li-2 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 35pc;
+    left: 10pc;
+  }
+  .Authoring .content-3 ul .li-3 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 40pc;
+    left: 10pc;
+  }
+  .Authoring .content-3 ul .li-4 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 45pc;
+    left: 10pc;
+  }
+  .Authoring .engagement {
+    width: 700px;
+    height: 500px;
+    top: 55pc;
+    left: 20pc;
+  }
+  .Branding {
+    height: 1000px;
+    margin-top: 1800%;
+  }
+  .Branding  .content-4 h4{
+    width: 900px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 40px;
+    left: 30pc;
+  }
+  .Branding  .content-4 p {
+    width: 900px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 8pc;
+    left: 20pc;
+  }
+  .Branding  .content-4 span {
+    width: 900px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .Branding .content-4 ul .li-1 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 30pc;
+    left: 10pc;
+  }
+  .Branding .content-4 ul .li-2 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 35pc;
+    left: 10pc;
+  }
+  .Branding .content-4 ul .li-3 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 40pc;
+    left: 10pc;
+  }
+  .Branding .platform {
+    width: 700px;
+    height: 500px;
+    top: 50pc;
+    left: 20pc;
+  }
+  .Interactivity {
+    height: 1000px;
+    margin-top: 2100%;
+  }
+  .Interactivity  .content-5 h4{
+    width: 900px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 40px;
+    left: 30pc;
+  }
+  .Interactivity  .content-5 p {
+    width: 900px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 8pc;
+    left: 20pc;
+  }
+  .Interactivity  .content-5 span {
+    width: 900px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .Interactivity .content-5 ul .li-1 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 30pc;
+    left: 10pc;
+  }
+  .Interactivity .content-5 ul .li-2 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 35pc;
+    left: 10pc;
+  }
+  .Interactivity .content-5 ul .li-3 {
+    width: 1200px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    top: 40pc;
+    left: 10pc;
+  }
+  .Interactivity .slack-connect {
+    width: 700px;
+    height: 500px;
+    top: 50pc;
+    left: 20pc;
   }
  
                                     /* -----> div-4 <----- */
   .cards {
-    margin-top: 550%;
-    height: 350%;
+    margin-top: 2400%;
+    height: 450%;
   }
   .cards .content-6 h4  {
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 900;
+    width: 900px;
+    left: 20pc;
+    top: 10pc;
     text-align: center;
     line-height: 80px;
   }
@@ -1368,44 +1732,43 @@ li {
   
                                   /* -----> div-5 <----- */
   .faq {
-    margin-top:1200%;
+    margin-top:3100%;
   }
-  .faq .header ,.accordion-button {
-    font-size:60px; 
-    font-weight: 900;
+  .faq .header{
+  font-size:60px; 
+  font-weight: 900;
+  width: 1000px;
+  left: 20pc;
+  }
+ .faq .accordion-button {
+  font-size:60px; 
+  font-weight: 900;
+  /* top: 10pc; */
   }
   .faq .accordion-body {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
   }
 
                                     /* -----> div-6 <----- */
   .footer {
+    margin-top: 3200%;
     max-width: 400%;
-    margin-top: 1250%;
-    height: 5500px;
+    height: 5700px;
     display: flex;
     flex-direction: row;
-  }
-  .footer .logo {
-   margin-top: 2%;
-   margin-left: 20%;
-   width: 400px;
-   height: 300px;
-  }
-  .footer ,.list-header {
-   font-size: 70px;
-   line-height: 100px;
   }
   .footer .ellipse .semi{
     width: 1520px;
     margin: 0;
     height: 400px;
   }
-
   .ellipse h1 {
   font-size: 60px;
   font-weight: 900;
+  width: 900px;
+  top: 5pc;
+  left: 20pc;
 }
   .ellipse .btn1 {
   width: 300px;
@@ -1422,6 +1785,17 @@ li {
   font-size: 40px;
   font-weight: 900;
 }
+  .footer .logo {
+   margin-top: 2%;
+   margin-left: 20%;
+   width: 400px;
+   height: 300px;
+  }
+  .footer ,.list-header {
+   font-size: 70px;
+   line-height: 100px;
+   width: 1520px;
+  }
   .footer .footer1{
     max-width: 425px;
     display: flex;
@@ -1437,7 +1811,32 @@ li {
     line-height: 120px;
   }
   .footer2 .icons {
-   margin-top: 290%;
-   margin-left: -30%;
+   top: 300pc;
+   left: 10pc;
+ }
+ .footer2 .icons .facebook {
+  width: 200px;
+   height: 100px;
+   left: 0pc;
+ }
+ .footer2 .icons .twitter {
+  width: 200px;
+   height: 100px;
+   left: 15pc;
+ }
+ .footer2 .icons .instagram {
+  width: 200px;
+   height: 100px;
+   left: 30pc;
+ }
+ .footer2 .icons .youtube {
+  width: 200px;
+   height: 100px;
+   left: 45pc;
+ }
+ .footer2 .icons .linkedin {
+  width: 200px;
+   height: 100px;
+   left: 60pc;
  }
 }
