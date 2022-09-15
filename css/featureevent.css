@@ -9,6 +9,13 @@ html,body {
 .nav {
   background: #454545;
 }
+.nav-a{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+
+line-height: 15px;
+}
 .icon-search {
   padding-top: 00.5rem;
   padding-right: 15px;
@@ -20,6 +27,9 @@ html,body {
   bottom: 36.84%;
   text-decoration: none;
   padding-right: 1rem;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
 }
 .logo-div {
   margin-right: 5px;
