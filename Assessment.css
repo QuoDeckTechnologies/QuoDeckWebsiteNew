@@ -5,7 +5,7 @@
 }
 
 .nav-item .nav-link {
-  font-size: 20px;
+  font-size: 13px;
   color: #ffffff;
 }
 form {
@@ -29,7 +29,7 @@ form button {
   border-radius: 13px;
 }
 .card-body a {
-  width: 200px;
+  width: 180px;
 }
 div.examplediv {
   margin-left: 120px;
@@ -79,10 +79,10 @@ p.exampletext {
 .oval {
   height: 250px;
   background: #d9d9d9;
-  border-bottom-left-radius: 60%;
-  border-bottom-right-radius: 60%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
   margin-left: -50px;
-  margin-right: -0px;
+  margin-right: 0px;
 }
 .rectangle {
   background: #454545;
@@ -103,12 +103,12 @@ li {
   font-size: 20px;
 }
 .logo-style {
-  margin-right: 10px;
-  margin-top: -80px;
+  margin: auto;
+  padding: 10px;
 }
 .accordion-item h2 {
   font-family: "Roboto";
-  font-size: 88px;
+  font-size: 30px;
   /* or 111% */
 
   /* Grey/Midnight */
@@ -117,13 +117,7 @@ li {
 }
 .accordion-header button {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 20px;
-  /* or 111% */
-
-  letter-spacing: -0.02em;
+  font-size: 18px;
 
   /* Grey/Midnight */
 
@@ -142,25 +136,228 @@ li {
 /* Responsive  */
 
 @media only screen and (max-width: 1024px) {
-  .nav-side-img {
-    display: flex;
+  .main-section img {
+    display: none;
+  }
+  form {
+    width: 100%;
+    display: block;
+  }
+  .nav-content {
+    width: 100%;
+    height: auto;
+  }
+  .nav-content button {
+    margin-top: 10px;
+  }
+  .card-content-header h1 {
+    font-size: 25px;
+    width: auto;
+  }
+  .card-content-header p {
+    font-size: 20px;
+    width: auto;
+  }
+  .row {
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+  .card a {
+    width: 100%;
+    height: auto;
+  }
+  .team-icon-main {
+    height: auto;
+  }
+  .team-icon1 {
+    font-size: 25px;
+    width: auto;
+  }
+  .team-icon2 {
+    font-size: 15px;
+    width: auto;
+  }
+  .team-icon-column {
     flex-direction: column;
-    width: 221px;
-    height: 171px;
-    margin-top: 100px;
-    margin-right: 150px;
-    align-items: center;
+  }
+  .team-icon4 {
+    margin-top: 40px;
+  }
+  .icon-style h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .icon-style p {
+    font-size: 22px;
+    margin: auto;
+  }
+  div.examplediv {
+    margin: auto;
+  }
+  .support .card {
+    margin-top: 10px;
+  }
+  .questions h1 {
+    font-size: 30px;
+    width: auto;
+  }
+  .accordion {
+    margin: auto;
+  }
+  .accordion-header button {
+    font-size: 25px;
+  }
+  .oval {
+    border-radius: 0px;
+  }
+  .full-footer-content {
+    margin: 10px;
+  }
+  .full-footer-content img {
+    height: 50px;
+    width: 50x;
+  }
+  .list-header {
+    font-size: 15px;
+  }
+  li {
+    margin: 1px;
+    font-size: 13px;
+  }
+  .footer-content-main4 {
+    flex-direction: column;
+  }
+  .footer-content-main {
+    margin: 2px;
+  }
+  .footer-content {
+    font-size: 15px;
+    margin: 5px;
+  }
+  .footer-content-main2 {
+    font-size: 13px;
+  }
+
+  .footer-content-main3 .logo-style {
+    margin: auto;
+    height: 35px;
+    width: 35px;
+    float: right;
   }
 }
 
 @media only screen and (max-width: 512px) {
-  .nav-side-img {
-    display: flex;
+  .main-section img {
+    display: none;
+  }
+  form {
+    width: 100%;
+    display: block;
+  }
+  .nav-content {
+    width: 100%;
+    height: auto;
+  }
+  .nav-content button {
+    margin-top: 10px;
+  }
+  .card-content-header h1 {
+    font-size: 20px;
+    width: auto;
+  }
+  .card-content-header p {
+    font-size: 13px;
+    width: auto;
+  }
+  .row {
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+  .card a {
+    width: 100%;
+  }
+  .team-icon-main {
+    height: auto;
+  }
+  .team-icon1 {
+    font-size: 20px;
+    width: auto;
+  }
+  .team-icon2 {
+    font-size: 10px;
+    width: auto;
+  }
+  .team-icon-column {
     flex-direction: column;
-    width: 121px;
-    height: 71px;
-    margin-top: 50px;
-    margin-right: 75px;
-    align-items: center;
+  }
+  .team-icon4 {
+    margin-top: 40px;
+  }
+  .icon-style h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .icon-style p {
+    font-size: 17px;
+    margin: auto;
+  }
+  div.examplediv {
+    margin: auto;
+  }
+  .support .card {
+    margin-top: 10px;
+  }
+  .questions h1 {
+    font-size: 25px;
+    width: auto;
+  }
+  .accordion {
+    margin: auto;
+  }
+  .accordion-header button {
+    font-size: 20px;
+  }
+  .oval {
+    border-radius: 0px;
+  }
+  .full-footer-content {
+    margin: 10px;
+  }
+  .full-footer-content img {
+    display: none;
+  }
+  .list-header {
+    font-size: 10px;
+  }
+  li {
+    margin: 1px;
+    font-size: 8px;
+  }
+  .footer-content-main4 {
+    flex-direction: column;
+  }
+  .footer-content-main {
+    margin: 2px;
+  }
+  .footer-content {
+    font-size: 10px;
+    margin: 5px;
+  }
+  .footer-content-main2 {
+    font-size: 8px;
+  }
+
+  .footer-content-main3 .logo-style {
+    margin: auto;
+    height: 35px;
+    width: 35px;
+    float: right;
+    display: none;
   }
 }

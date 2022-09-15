@@ -2,17 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
-    width: 1500px;
+    width: 1520px;
     margin:0%;
     box-sizing: border-box;
-    display: block;
+    overflow-x: hidden;
 }
-/*  -----> div-1  <-----  */
 
+                            /*  -----> div-1  <-----  */
+                            
 .container-fluid {
   background-color: #454545;
-  width: 1500px;
+  width: 1520px;
   height: 650px;
+}
+
+.container-fluid .dropdown-item:hover {
+  background-color: lightblue;
 }
 
 img {
@@ -23,6 +28,11 @@ img {
   border-radius: 0px;
 }
 
+.nav-item , .nav-link ,.navbar-nav{
+  margin-left: -15%;
+  justify-content: space-between;
+}
+
 .nav-item > a {
   color: white;
   font-family: "Roboto";
@@ -30,11 +40,6 @@ img {
   font-weight: 700;
   font-size: 15px;
   line-height: 10px;
-  margin-left: 5px;
-}
-
-.nav-item a img {
-  margin-left: 2px;
 }
 
 .button {
@@ -156,11 +161,13 @@ p2 {
   letter-spacing: -0.02em;
   text-decoration: underline 1px solid white;
   list-style-type: none;
+  margin-left: -2%;
 }
 .contents ul li img {
   background: #ffbf00;
   box-shadow: 0px 1px 2px rgba(48, 79, 254, 0.54);
   border-radius: 20px;
+  margin: 5%;
 }
 
 .gami {
@@ -209,7 +216,7 @@ p2 {
   line-height: 13px;
   align-items: center;
   text-align: center;
-  top: 85%;
+  top: 80%;
   left: 10%;
 }
 
@@ -221,12 +228,12 @@ p2 {
   top: 171px;
 }
 
-/* ----->  div-2  <----- */
+                                    /* ----->  div-2  <----- */
 
 .container1 {
   position: absolute;
   background-color: white;
-  width: 1500px;
+  width: 1520px;
   height: 300px;
   margin: 100px;
   left: 0px;
@@ -235,51 +242,48 @@ p2 {
 
 .brands {
   position: absolute;
-  left: 80px;
-  /* top: 69px; */
+  left: 70px;
+  top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .flipkart {
   position: absolute;
   width: 127.76px;
   height: 98px;
-  left: 69px;
-  top: 70px;
+  left: -100px;
 }
 .isb {
   position: absolute;
   width: 126.75px;
   height: 98px;
-  left: 250.07px;
-  top: 70px;
+  left: 150px;
 }
 .myntra {
   position: absolute;
   width: 126.75px;
   height: 97px;
-  left: 423.09px;
-  top: 72px;
+  left: 400px;
 }
 .starsports {
   position: absolute;
   width: 125.74px;
   height: 98px;
-  left: 594.1px;
-  top: 70px;
+  left: 650px;
 }
 .vi {
   position: absolute;
   width: 126.75px;
   height: 98px;
-  left: 765.12px;
-  top: 87px;
+  left: 900px;
 }
 .unilever {
   position: absolute;
   width: 127.76px;
   height: 99px;
-  left: 956.24px;
-  top: 69px;
+  left: 1150px;
 }
 
 .customers {
@@ -301,10 +305,10 @@ p2 {
   text-align: center;
 }
 
-/* -----> div-3  <-----  */
+                                  /* -----> div-3  <-----  */
 .Gamification {
   position: absolute;
-  width: 1500px;
+  width: 1520px;
   height: 550px;
   left: 0px;
   top: 982px;
@@ -426,11 +430,11 @@ p2 {
   top: 39px;
 }
 
-/* -----> div-4 <----- */
+                                      /* -----> div-4 <----- */
 
 .Distribution {
   position: absolute;
-  width: 1500px;
+  width: 1520px;
   height: 550px;
   left: 0px;
   top: 1480px;
@@ -553,10 +557,10 @@ p2 {
   border-radius: 20px;
 }
 
-/* -----> div-5 <----- */
+                                    /* -----> div-5 <----- */
 .Authoring {
   position: absolute;
-  width: 1500px;
+  width: 1520px;
   height: 550px;
   left: 0px;
   top: 2000px;
@@ -694,10 +698,10 @@ p2 {
   border-radius: 20px;
 }
 
-/* -----> div-6 <----- */
+                              /* -----> div-6 <----- */
 .Branding {
   position: absolute;
-  width: 1500px;
+  width: 1520px;
   height: 550px;
   left: 0px;
   top: 2500px;
@@ -819,10 +823,10 @@ p2 {
   border-radius: 20px;
 }
 
-/* -----> div-7 <----- */
+                                    /* -----> div-7 <----- */
 .Interactivity {
   position: absolute;
-  width: 1500px;
+  width: 1520px;
   height: 550px;
   left: 0px;
   top: 3000px;
@@ -945,10 +949,10 @@ p2 {
   border-radius: 20px;
 }
 
-/* -----> div-8 <----- */
+                                  /* -----> div-8 <----- */
 .cards {
   position: absolute;
-  width: 1500px;
+  width: 1520px;
   height: 590px;
   left: 1px;
   top: 3500px;
@@ -1008,21 +1012,12 @@ p2 {
 /* -----> div-9 <----- */
 .faq {
   position: absolute;
-  width: 1500px;
+  width: 1520px;
   height: 680px;
   left: 4px;
   top: 4100px;
 }
-.accordion {
-  position: absolute;
-  top: 200px;
-  width: 1400px;
-  left: 50px;
-  color: #121212;
-}
-.accordion-flush {
-  color: 121212;
-}
+
 .faq .header {
   position: absolute;
   width: 605px;
@@ -1040,8 +1035,19 @@ p2 {
   color: #121212;
 }
 
+.accordion {
+  position: absolute;
+  top: 200px;
+  width: 1400px;
+  left: 50px;
+  color: #121212;
+}
+
+.accordion .accordion-body {
+  margin-left: 5%;
+}
+
 .accordion-item .accordion-header {
-  /* position: absolute; */
   margin-left: 5%;
   margin-top: 2%;
   margin-right: 2%;
@@ -1056,55 +1062,18 @@ p2 {
   transform: rotate(0.01deg);
 }
 
-.accordion-header .arrow {
-  position: absolute;
-  width: 19.97px;
-  right: 80.86px;
-  /* top: 177px; */
-  bottom: 464px;
-  margin-left: 95%;
-}
-.accordion-header .arrow1 {
-  position: absolute;
-  width: 19.97px;
-  right: 80.86px;
-  /* top: 177px; */
-  margin-bottom: 5%;
-  bottom: 464px;
-  margin-left: 95%;
-}
-.accordion-header .arrow2 {
-  position: absolute;
-  width: 19.97px;
-  right: 80.86px;
-  /* top: 177px; */
-  margin-bottom: 5%;
-  bottom: 464px;
-  margin-left: 95%;
-}
-.accordion-header .arrow3 {
-  position: absolute;
-  width: 19.97px;
-  right: 80.86px;
-  /* top: 177px; */
-  margin-bottom: 5%;
-  bottom: 464px;
-  margin-left: 95%;
-}
-.accordion-header .arrow4 {
-  position: absolute;
-  width: 19.97px;
-  right: 80.86px;
-  /* top: 177px; */
-  margin-bottom: 5%;
-  bottom: 464px;
-  margin-left: 95%;
+.accordion-button {
+  font-family: "Roboto";
+  font-style: normal;
+  color: #121212;
+  font-weight: 700;
+  font-size: 18px;
 }
 
-/* -----> div-10 <----- */
+                                        /* -----> div-10 <----- */
 .ellipse .semi {
   position: absolute;
-  width: 1500px;
+  width: 1520px;
   height: 300px;
   left: 0px;
   top: 0px;
@@ -1171,10 +1140,10 @@ p2 {
   background-color: #454545;
   box-sizing: border-box;
   position: absolute;
-  width: 1500px;
+  width: 1520px;
   height: 900px;
   left: -48px;
-  top: 4700px;
+  top: 4900px;
   background: #454545;
   border: 1px solid #454545;
   margin: 50px;
@@ -1191,12 +1160,10 @@ p2 {
 }
 .footer2 {
   position: absolute;
-  /* width: 1500px; */
   height: 0px;
   left: 17px;
   top: 750px;
   display: flex;
-  /* margin: 18px;  */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -1278,7 +1245,6 @@ li {
   width: 24px;
   height: 22.49px;
   left: 410px;
-  /* top: 6916px; */
 }
 
 .twitter {
@@ -1286,7 +1252,6 @@ li {
   width: 24px;
   height: 22.49px;
   left: 480px;
-  /* top: 6916px; */
 }
 
 .instagram {
@@ -1294,7 +1259,6 @@ li {
   width: 24px;
   height: 22.49px;
   left: 540px;
-  /* top: 6916px; */
 }
 
 .youtube {
@@ -1302,7 +1266,6 @@ li {
   width: 24px;
   height: 22.49px;
   left: 610px;
-  /* top: 6916px; */
 }
 
 .linkedin {
@@ -1310,5 +1273,171 @@ li {
   width: 24px;
   height: 22.49px;
   left: 670px;
-  /* top: 6916px; */
+}
+
+
+                                        /*******   RESPONSIVE  *******/
+
+@media  (max-width:425px)  {
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+                                    /* -----> div-1 <----- */
+  .container-fluid {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    position: absolute;
+  }
+  .container-fluid nav {
+    margin-top: 100%;
+    margin-left: 50%;
+    position: absolute;
+   }
+
+                                     /* -----> div-2 <----- */
+   .container1 {
+    width: 100%;
+    margin-right: 0%;
+   }
+  .container1 .brands img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position:static;
+    margin-left: 150%;
+    width: 300px;
+    height: 300px;
+  }
+  .container1 button {
+    margin-top: 450%;
+    margin-left: -50%;
+    width: 800px;
+    height: 150px;
+    font-size:50px; 
+  }
+
+                                  /* -----> div-3 <----- */
+  .Gamification, .Distribution,
+  .Authoring,.Branding,.Interactivity {
+    margin-top: 500%;
+    display: flex;
+  }
+ 
+                                    /* -----> div-4 <----- */
+  .cards {
+    margin-top: 550%;
+    height: 350%;
+  }
+  .cards .content-6 h4  {
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 80px;
+  }
+  .cards .content-6 .cards-overlay .card-1{
+    width: 500px;
+    height: 600px;
+    margin-top: 10%;
+    margin-left: 30%;
+  }
+  .cards .content-6 .cards-overlay .card-2{
+    width: 500px;
+    height: 600px;
+    margin-top: 70%;
+    margin-left: 4%;
+  }
+  .cards .content-6 .cards-overlay .card-3{
+    width: 500px;
+    height: 600px;
+    margin-top: 130%;
+    margin-left: -23%;
+  }
+  .cards .content-6 .cards-overlay .card-4{
+    width: 500px;
+    height: 600px;
+    margin-top: 190%;
+    margin-left: -50%;
+  }
+  
+                                  /* -----> div-5 <----- */
+  .faq {
+    margin-top:1200%;
+  }
+  .faq .header ,.accordion-button {
+    font-size:60px; 
+    font-weight: 900;
+  }
+  .faq .accordion-body {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+                                    /* -----> div-6 <----- */
+  .footer {
+    max-width: 400%;
+    margin-top: 1250%;
+    height: 5500px;
+    display: flex;
+    flex-direction: row;
+  }
+  .footer .logo {
+   margin-top: 2%;
+   margin-left: 20%;
+   width: 400px;
+   height: 300px;
+  }
+  .footer ,.list-header {
+   font-size: 70px;
+   line-height: 100px;
+  }
+  .footer .ellipse .semi{
+    width: 1520px;
+    margin: 0;
+    height: 400px;
+  }
+
+  .ellipse h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+  .ellipse .btn1 {
+  width: 300px;
+  height: 100px;
+  margin: 5%;
+  font-size: 40px;
+  margin-left: -10%;
+  font-weight: 900;
+}
+  .ellipse .btn2 {
+  width: 300px;
+  height: 100px;
+  margin: 5%;
+  font-size: 40px;
+  font-weight: 900;
+}
+  .footer .footer1{
+    max-width: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50% ;
+  }
+  .footer2 p ,.footer-content{
+    margin-top: 270%;
+    display: block;
+    flex-direction: row;
+    font-size: 60px;
+    line-height: 120px;
+  }
+  .footer2 .icons {
+   margin-top: 290%;
+   margin-left: -30%;
+ }
 }

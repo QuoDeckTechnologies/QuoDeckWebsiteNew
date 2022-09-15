@@ -27,14 +27,14 @@
   </head>
 
   <body>
-    <div style="height: 498px; background-color: #454545">
-      <div style="margin: 25px">
+    <div style="background-color: #454545; padding-bottom: 20px">
+      <div>
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html"
+            <a class="navbar-brand" href="./index.html"
               ><img
                 src="./image/quodeck-full-logo-inverted.png"
-                style="height: 57px; width: 187px"
+                style="height: 40px; width: 130px"
             /></a>
             <button
               class="navbar-toggler"
@@ -44,6 +44,7 @@
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation"
+              style="background-color: whitesmoke"
             >
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -61,20 +62,32 @@
                     Product
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Demo 1</a></li>
                     <li>
-                      <a class="dropdown-item" href="#">Demo 2</a>
+                      <a
+                        class="dropdown-item"
+                        href="./product demo/product.html"
+                        >Product demo</a
+                      >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">Demo 3</a>
+                      <a class="dropdown-item" href="./Knowledge.html"
+                        >Knowledge base</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./Assessment_Feature.html"
+                        >Assessment Feature</a
+                      >
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Solutions</a>
+                  <a class="nav-link" href="./Aboutus/aboutus.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Enterprise</a>
+                  <a class="nav-link" href="./Enterprise/enterprise.html"
+                    >Enterprise</a
+                  >
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -87,17 +100,20 @@
                     Resources
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Demo 1</a></li>
                     <li>
-                      <a class="dropdown-item" href="#">Demo 2</a>
+                      <a class="dropdown-item" href="./ice/ice.html"
+                        >ICE Resources</a
+                      >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">Demo 3</a>
+                      <a class="dropdown-item" href="/resogallery.html"
+                        >Resource Gallery</a
+                      >
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="./pricing/pricing.html">Pricing</a>
                 </li>
               </ul>
               <form class="d-flex" role="search">
@@ -115,13 +131,25 @@
             </div>
           </div>
         </nav>
-        <div style="display: flex; justify-content: space-between">
-          <div style="color: #ffffff; margin-top: 80px; margin-left: 45px">
-            <p style="font-size: 36px; font-family: Oswald Regular">
+        <div
+          style="display: flex; justify-content: space-between"
+          class="nav-content-data"
+        >
+          <div
+            style="color: #ffffff; margin-top: 80px; margin-left: 45px"
+            class="nav-content-data1"
+          >
+            <p
+              style="font-size: 36px; font-family: Oswald Regular"
+              class="nav-content-data-p1"
+            >
               Setup an enterprise knowledge base<br />
               to enable on-demand learning for your workforce
             </p>
-            <p style="font-size: 18px; font-family: roboto; margin-top: 30px">
+            <p
+              style="font-size: 18px; font-family: roboto; margin-top: 30px"
+              class="nav-content-data-p2"
+            >
               Drive understanding of your app or business by<br />
               integrating a knowledge base full of Stories, Quizzes,<br />
               Games, Profilers, Calculators and more...
@@ -140,10 +168,24 @@
             </p>
           </div>
           <div style="float: right">
-            <img
-              src="./image/game 2.png"
-              style="margin-top: 70px; margin-right: 150px"
-            />
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide game3"
+              data-bs-ride="carousel"
+              style="margin-top: 50px; margin-right: 50px"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./image/game 2.jpg" class="d-block" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/game 2.jpg" class="d-block" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/game 2.jpg" class="d-block" alt="..." />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -224,6 +266,7 @@
 
     <div
       style="margin-top: 150px; display: flex; justify-content: space-around"
+      class="middle-content1"
     >
       <div>
         <img src="./image/compliance-widget1 5.png" />
@@ -270,7 +313,10 @@
       </div>
     </div>
 
-    <div style="margin-top: 40px; background-color: #454545; height: 520px">
+    <div
+      style="margin-top: 40px; background-color: #454545; padding-bottom: 20px"
+      class="team-icon-main"
+    >
       <br />
       <div>
         <p
@@ -280,17 +326,24 @@
             font-size: 34px;
             font-family: 'Oswald Regular';
           "
+          class="team-icon1"
         >
           How can you use QuoDeck Knowledge Base?​
         </p>
-        <p style="text-align: center; font-size: 16px; color: whitesmoke">
+        <p
+          style="text-align: center; font-size: 16px; color: whitesmoke"
+          class="team-icon2"
+        >
           Repository of bite-sized content to engage different audiences
         </p>
       </div>
-      <div style="justify-content: space-around; display: flex">
-        <div>
+      <div
+        style="justify-content: space-around; display: flex"
+        class="team-icon-column"
+      >
+        <div class="team-icon4">
           <a href="">
-            <div class="examplediv" style="margin-left: 230px">
+            <div class="examplediv" style="margin-left: 160px">
               <p class="exampletext">
                 <img
                   src="./image/Identification Documents.png"
@@ -299,7 +352,7 @@
               </p>
             </div>
           </a>
-          <div class="icon-style" style="margin-left: 20px">
+          <div class="icon-style">
             <h1>Ecosystem Engagement Platform</h1>
             <p>
               <b
@@ -309,9 +362,9 @@
             </p>
           </div>
         </div>
-        <div>
+        <div class="team-icon4">
           <a href="">
-            <div class="examplediv" style="margin-left: 230px">
+            <div class="examplediv" style="margin-left: 160px">
               <p class="exampletext">
                 <img src="./image/iPhone.png" />
               </p>
@@ -327,7 +380,7 @@
             </p>
           </div>
         </div>
-        <div>
+        <div class="team-icon4">
           <a href="">
             <div class="examplediv" style="margin-left: 130px">
               <p class="exampletext">
@@ -346,7 +399,10 @@
     </div>
 
     <div style="margin-top: 70px">
-      <div style="display: flex; justify-content: space-around">
+      <div
+        style="display: flex; justify-content: space-around; margin: 30px"
+        class="main-side-header"
+      >
         <div>
           <div class="side-header">
             Enable ecosystem users to consume<br />
@@ -379,20 +435,21 @@
             </p>
           </div>
         </div>
-        <div>
+        <div class="side-header-img">
           <img
             src="./image/aboutus-widget1 2.png"
-            style="height: 422px; width: 629px"
+            style="height: 322px; width: 329px; margin-top: 120px"
           />
         </div>
       </div>
       <div
-        style="display: flex; justify-content: space-around; margin-top: 60px"
+        style="display: flex; justify-content: space-around; margin: 30px"
+        class="main-side-header2"
       >
-        <div>
+        <div class="side-header-img">
           <img
             src="./image/aboutus-widget1 2 (1).png"
-            style="height: 422px; width: 629px"
+            style="height: 322px; width: 329px; margin-top: 120px"
           />
         </div>
         <div>
@@ -428,7 +485,8 @@
         </div>
       </div>
       <div
-        style="display: flex; justify-content: space-around; margin-top: 80px"
+        style="display: flex; justify-content: space-around; margin: 30px"
+        class="main-side-header"
       >
         <div>
           <div class="side-header">
@@ -449,7 +507,7 @@
             <p>Recommend content to users based on topics that they consume</p>
             <p>
               Categorize nuggets by both subject as well as formats for multiple
-              modes of<br />discoverability
+              modes of discoverability
             </p>
             <p>Recommend nuggets to learners based on what interests them</p>
             <p>
@@ -462,17 +520,20 @@
             </p>
           </div>
         </div>
-        <div>
+        <div class="side-header-img">
           <img
             src="./image/aboutus-widget1 2 (1).png"
-            style="height: 422px; width: 629px"
+            style="height: 322px; width: 329px; margin-top: 120px"
           />
         </div>
       </div>
     </div>
 
-    <div style="margin-top: 200px">
-      <div>
+    <div
+      style="margin-top: 200px; background-image: url(./image/world-map\ 1.jpg)"
+      class="main-middle-section"
+    >
+      <div class="middle-section">
         <h1 style="text-align: center">
           Engagement That Scales With Your Team
         </h1>
@@ -504,19 +565,19 @@
         style="display: flex; justify-content: space-around; margin-top: 150px"
         class="data-histor"
       >
-        <div>
+        <div class="data-sub-history">
           <h1 style="text-align: center">85%</h1>
           <h5 style="text-align: center">
             of users say stack<br />has improved<br />communication*
           </h5>
         </div>
-        <div>
+        <div class="data-sub-history">
           <h1 style="text-align: center">86%</h1>
           <h5 style="text-align: center">
             feel their ability to<br />work remotely has<br />improved
           </h5>
         </div>
-        <div>
+        <div class="data-sub-history">
           <h1 style="text-align: center">88%</h1>
           <h5 style="text-align: center">
             feel more<br />connected to their<br />teams*
@@ -541,6 +602,7 @@
             flex-direction: row;
             justify-content: space-around;
           "
+          class="footer-sub-img"
         >
           <img src="./image/client3.png" />
           <img src="./image/client4.png" />
@@ -552,31 +614,39 @@
       </div>
     </div>
 
-    <div class="rectangle" style="margin-top: 70px">
+    <div class="rectangle">
       <div class="oval">
         <br />
-        <h2 style="text-align: center">WELCOME TO YOUR NEW DIGITAL HQ.</h2>
+        <h2 style="text-align: center">WELCOME TO YOUR NEW DIGITAL HQ</h2>
         <div
-          class="btnstyle"
-          style="display: flex; justify-content: center; margin-top: 50px"
+          class="btnstyle2"
+          style="
+            font-family: roboto;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+          "
         >
           <button
             type="button"
             class="btn btn-warning"
-            style="margin-left: -50px; width: 200px; height: 40px"
+            style="margin-right: 30px"
           >
             TRY FOR FREE
           </button>
           <button
             type="button"
             class="btn btn-outline-warning"
-            style="color: black; margin-left: 30px; width: 200px; height: 40px"
+            style="color: black; margin-left: 30px"
           >
             TALK TO SALES
           </button>
         </div>
       </div>
-      <div style="margin: 50px; display: flex; justify-content: space-around">
+      <div
+        style="margin: 30px; display: flex; justify-content: space-around"
+        class="full-footer-content"
+      >
         <div>
           <img src="./image/ShortLogoIcon.png" />
         </div>
@@ -632,7 +702,15 @@
         </div>
       </div>
       <hr style="color: white" />
-      <div style="display: flex; flex: row; margin: 18px; font-family: roboto">
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          margin: 10px;
+          font-family: roboto;
+        "
+        class="footer-content-main"
+      >
         <li class="footer-content">Status</li>
         <li class="footer-content">Privacy</li>
         <li class="footer-content">Terms</li>
@@ -646,11 +724,15 @@
           justify-content: space-between;
           padding-bottom: 30px;
         "
+        class="footer-content-main4"
       >
-        <div style="color: rgba(245, 245, 245, 0.915); margin-left: 21px">
+        <div
+          style="color: rgba(245, 245, 245, 0.915); margin-left: 21px"
+          class="footer-content-main2"
+        >
           © Copyright QuoDeck Technologies PLC 2022. All Rights Reserved.
         </div>
-        <div>
+        <div class="footer-content-main3">
           <img src="./image/Facebook F.png" class="logo-style" />
           <img src="./image/Twitter.png" class="logo-style" />
           <img src="./image/Instagram Circle.png" class="logo-style" />
