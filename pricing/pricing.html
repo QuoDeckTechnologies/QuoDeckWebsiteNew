@@ -8,44 +8,108 @@
     <link href="https://tinyurl.com/2qfnnr2q" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/57a37298d0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="Pricing.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="pricing.css">
     <title>Pricing</title>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg text-center">
-            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-                <a href="../index.html" class="mx-lg-5 mt-lg-2"><img src="./quodeck-logo.png" alt=""></a>
-                <ul class="navbar-nav mx-lg-5 mb-2 mb-lg-0 align-items-center justify-content-center">
-                    <li class="nav-item d-flex">
-                        <a class="nav-link" aria-current="page" href="#">Product <img src="Expand Arrow.png" alt=""></a>
+    <div class="container-fluid-main">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light nav">
+              <div class="container-fluid">
+                <div class="logo-div">
+                    <a href="../index.html"><img src="quodeck-logo.png" alt="#" ></a>
+<!--                   <img src="quodeck-logo.png" alt=""> -->
+              </div>
+                <button
+                  class="navbar-toggler bg-white"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                          <a
+                            class="nav-link dropdown-toggle text-white"
+                            href="#"
+                            id="anvbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            Products
+                          </a>
+                          <ul
+                            class="dropdown-menu"
+                            aria-labelledby="navbarDropdown"
+                            style="color: aqua"
+                          >
+                            <li><a class="dropdown-item" href="../product demo/product.html">Product demo</a></li>
+                            <li>
+                              <a class="dropdown-item" href="../Knowledge.html">Knowledge base</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="../">Product Features</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="../Aboutus/aboutus.html">About Us</a>
                     </li>
-                    <li class="nav-item d-flex">
-                        <a class="nav-link" href="#">Solutions</a>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="../Enterprise/enterprise.html">Enterprise</a>
                     </li>
-                    <li class="nav-item d-flex">
-                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Enterprise
-                        </a>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle text-white"
+                        href="#"
+                        id="anvbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Resources
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                        style="color: aqua"
+                      >
+                        <li><a class="dropdown-item" href="../ice/ice.html">ICE Resources</a></li>
+                        <li>
+                          <a class="dropdown-item" href="../resogallery.html">Resource Gallery</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            ></a
+                          >
+                        </li>
+                      </ul>
                     </li>
-                    <li class="nav-item d-flex">
-                        <a class="nav-link">Resources <img src="Expand Arrow.png" alt="#"></a>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="../pricing/pricing.html">Pricing</a>
                     </li>
-                    <li class="nav-item d-flex">
-                        <a class="nav-link">Pricing</a>
-                    </li>
-                </ul>
-
-                <div class="sign">
-
+                  </ul>
+                  <div class="d-flex head-button">
+                    
+                    <a class="text-white sign-text"><i class="fa-solid fa-magnifying-glass icon-search text-white"></i>Sign in</a>
+                    <button  class="btn btn-outline-warning btnt1">Talk To Sales</button>
+                    <button class="btn bg-warning text-black-50 btnt" type="submit">
+                      Try For Free
+                    </button>
+                  </div>
                 </div>
-                <div class="nav-button">
-                    <button class="btn1">TALK TO SALES</button>
-                    <button class="btn2">TRY FOR FREE</button>
-                </div>
-            </div>
-        </nav>
+              </div>
+            </nav>
+          </header>
         <div class="section-text">
             <div class="section-text-h1">
                 <h1>Plans as per your needs </h1>
@@ -56,7 +120,7 @@
             </div>
         </div>
     </div>
-<!--     <div class="grid-section">
+    <!--     <div class="grid-section">
         <div class="grid-container">
             <h1>Perfect for Individual team managers looking to scale workforce engagement
             </h1>
@@ -468,15 +532,15 @@
     <div class="container3">
         <img class="semi" src="Ellipse.png" alt="#">
         <img class="ready" src="Ready_to_get.png" alt="#">
-            <button class="btn1">TRY FOR FREE</button>
-            <button class="btn2 ">TALK TO SALES</button>
+        <button class="btn1">TRY FOR FREE</button>
+        <button class="btn2 ">TALK TO SALES</button>
     </div>
 
     <div style="margin: 50px; display: flex; justify-content: space-around" class="content-9">
         <div>
-            <img src="ShortLogoIcon.png" class="logo"/>
+            <img src="ShortLogoIcon.png" class="logo" />
         </div>
-        <div>
+        <div class="footer-list">
             <ul>
                 <li class="list-header">WHY QUODECK?</li>
                 <li>Quodeck vs email</li>
@@ -486,7 +550,7 @@
                 <li>Watch a demo</li>
             </ul>
         </div>
-        <div>
+        <div class="footer-list">
             <ul>
                 <li class="list-header">PRODUCT</li>
                 <li>Features</li>
@@ -496,14 +560,14 @@
                 <li>Watch a demo</li>
             </ul>
         </div>
-        <div>
+        <div class="footer-list">
             <ul>
                 <li class="list-header">PRICING</li>
                 <li>Subscriptions</li>
                 <li>Paid vs free</li>
             </ul>
         </div>
-        <div>
+        <div class="footer-list">
             <ul>
                 <li class="list-header">RESOURCES</li>
                 <li>Partners</li>
@@ -515,7 +579,7 @@
                 <li>Events</li>
             </ul>
         </div>
-        <div>
+        <div class="footer-list">
             <ul>
                 <li class="list-header">COMPANY</li>
                 <li>About us</li>
@@ -526,32 +590,29 @@
                 <li>Careers</li>
             </ul>
         </div>
+        <div class="content-10">
+            <li class="footer-content">Status</li>
+            <li class="footer-content">Privacy</li>
+            <li class="footer-content">Terms</li>
+            <li class="footer-content">Cookie preferences</li>
+            <li class="footer-content">Contact us</li>
+            <li class="footer-content">Change region</li>
+        </div> 
+        <div class="content-11">
+            © Copyright QuoDeck Technologies PLC 2022. All Rights Reserved.
+        </div> 
     </div>
-<!--     <hr style="color: white" />
-    <div style="display: flex; flex: row; margin: 18px; font-family: roboto" class="content-10">
-        <li class="footer-content">Status</li>
-        <li class="footer-content">Privacy</li>
-        <li class="footer-content">Terms</li>
-        <li class="footer-content">Cookie preferences</li>
-        <li class="footer-content">Contact us</li>
-        <li class="footer-content">Change region</li>
-    </div> -->
-<!--     <div style="
-          display: flex;
-          justify-content: space-between;
-          padding-bottom: 30px;
-        "> -->
-<!--         <div class="logo7">
-            <img src="Facebook_logo.png" class="facebook" />
-            <img src="Twitter_logo.png" class="twitter" />
-            <img src="Instagram_logo.png" class="instagram" />
-            <img src="YouTube-logo.png" class="youtube" />
-            <img src="LinkedIn-logo.png" class="link" /> -->
-<!--             <div style="color: black ; margin-left: 21px" class="content-11">
-                © Copyright QuoDeck Technologies PLC 2022. All Rights Reserved.
-            </div> -->
-        </div>
+    <div class="logo7">
+        <img src="Facebook_logo.png" class="facebook item-logo" />
+        <img src="Twitter_logo.png" class="twitter item-logo" />
+        <img src="Instagram_logo.png" class="instagram item-logo" />
+        <img src="YouTube-logo.png" class="youtube item-logo" />
+        <img src="LinkedIn-logo.png" class="link item-logo" />
     </div>
-</body> 
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+</body>
 
 </html>
