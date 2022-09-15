@@ -4,294 +4,468 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://tinyurl.com/2qfnnr2q" rel="stylesheet"  integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="product.css">
+    <title>Product Demo</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="jquery.hislide.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="product.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-    <title>Product Demo</title>
   </head>
   <body>
-    <div class="container-fluid">
-     <nav class="navbar navbar-expand-lg text-center">
-          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-             <a href="../index.html"><img src="Images/quodeck.png" alt="#" class="mx-lg-5 mt-lg-2"></a>
-            <ul class="navbar-nav mx-lg-5 mb-2 mb-lg-0 align-items-center justify-content-center">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-white"
-                  href="#"
-                  id="anvbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Products
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdown"
-                  style="color: aqua"
-                >
-                  <li><a class="dropdown-item" href="../product demo/product.html">Product demo</a></li>
-                  <li>
-                    <a class="dropdown-item" href="../Knowledge.html">Knowledge base</a>
+    <div>
+      <div>
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-light nav">
+            <div class="container-fluid">
+              <div class="logo-div">
+                <img src="./image/logo-inverted (1).png" alt="" />
+              </div>
+              <button
+                class="navbar-toggler bg-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle text-white nav-a"
+                      href="#"
+                      id="anvbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Products
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="navbarDropdown"
+                      style="color: aqua"
+                    >
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="../product demo/product.html"
+                          >Product demo</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="../Knowledge.html"
+                          >Knowledge base</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="../Product-Feature/productfeature.html">Product Features</a>
+                      </li>
+                    </ul>
                   </li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ></a
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white nav-a"
+                      href="../Aboutus/aboutus.html"
+                      >About Us</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white nav-a"
+                      href="../Enterprise/enterprise.html"
+                      >Enterprise</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle text-white nav-a"
+                      href="#"
+                      id="anvbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Resources
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="navbarDropdown"
+                      style="color: aqua"
+                    >
+                      <li>
+                        <a class="dropdown-item" href="../ice/ice.html"
+                          >ICE Resources</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="../resogallery.html"
+                          >Resource Gallery</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="./Assessment_Feature.html">Assesment Feature</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white nav-a"
+                      href="../pricing/pricing.html"
+                      >Pricing</a
                     >
                   </li>
                 </ul>
-              </li>
-              <li class="nav-item d-flex">
-                <a class="nav-link" href="../Aboutus/aboutus.html">About Us</a>
-              </li>
-              <li class="nav-item d-flex">
-                <a class="nav-link" href="../Enterprise/enterprise.html">
-                 Enterprise
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-white"
-                  href="#"
-                  id="anvbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Resources
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdown"
-                  style="color: aqua"
-                >
-                  <li><a class="dropdown-item" href="../ice/ice.html">ICE Resources</a></li>
-                  <li>
-                    <a class="dropdown-item" href="../resogallery.html">Resource Gallery</a>
-                  </li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ></a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item d-flex">
-                <a class="nav-link" href="../pricing/pricing.html" >Pricing</a>
-              </li>
-              <li class="nav-item m-2 mx-lg-5">
-                <button class="button"> TALK TO SALES </button>
-              </li>
-              <li class="nav-item m-2 mx-lg-5">
-                <button class="button-1"> TRY FOR FREE </button>
-              </li>
-            </ul>
+                <div class="d-flex head-button">
+                  <a class="text-white sign-text"
+                    ><i
+                      class="fa-solid fa-magnifying-glass icon-search text-white"
+                    ></i
+                    >Sign in</a
+                  >
+                  <button class="btn btn-outline-warning btnt1">
+                    Talk To Sales
+                  </button>
+                  <button
+                    class="btn bg-warning text-black-50 btnt"
+                    type="submit"
+                  >
+                    Try For Free
+                  </button>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <div class="header-down">
+          <div class="row div60 pb-5">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <p class="h1 para1 mb-0">Discover a new way</p>
+              <p class="para2">Of working</p>
+              </p>
+              <div
+                class="d-flex lg:flex-row d-sm-flex sm-flex-column bd-highlight mb-3 div-btn"
+              >
+                <div>
+                  <button class="btn1 my-2">TRY FOR FREE</button>
+                </div>
+                <div>
+                  <button class="btn1 btn2 my-2">
+                    SEE ALL FEATURES
+                  </button>
+                </div>
+              </div>
+            </div>
+        
+            </div>
           </div>
-      </nav>
-      <div class="search">
-        <img src="search.png" alt="#" ><span> Sign In </span></img>
-      </div>
-      <p> DISCOVER A NEW WAY OF WORKING </p>
-    <button class="button3"> TRY FOR FREE </button>
-    <button class="button4"> SEE ALL FEATURES </button>
-    </div>
-
-    <div class="container1">
-       <div class="brands">
-        <img class="flipkart" src="Images/flipkart.png" alt="#">
-        <img class="isb" src="Images/isb.png" alt="#">
-        <img class="myntra" src="Images/myntra.png" alt="#">
-        <img class="starsports" src="Images/starsports.png" alt="#">
-        <img class="vi" src="Images/vi.png" alt="#">
-        <img class="unilever" src="Images/unilever.png" alt="#">
-      </div>
-      <button class="customers"> SEE ALL CUSTOMER STORIES </button>
-    </div>
-
-    <div class="feature-1">
-        <div class="engage">
-            <h3>ENGAGE YOUR WORKFORCE ACROSS THEIR LIFECYCLE</h3>
-         <div class="engage1">
-            <div class="engage2">
-                <img class="radio-checked" src="radiocheck.png" />
-                <p>Onboard</p>
-            </div>
-            <div class="engage3">
-                <img class="radio-checked" src="radio.png" />
-                <p>Retain</p>
-            </div>
-            <div class="engage4">
-                <img class="radio-checked" src="radio.png" />
-                <p>Grow</p>
-            </div>
-            <div class="dashes">
-              <div class="underline"></div>
-              <div class="underline"></div>
-              <div class="underline"></div>
-              <div class="underline"></div>
-              <div class="underline"></div>
-              <div class="underline"></div>
-              <div class="underline"></div>
-              <div class="underline"></div>
-            </div>
-            <div class="dashes-1">
-              <div class="underline"></div>
-              <div class="underline"></div>
-              <div class="underline"></div>
-              <div class="underline"></div>
-              <div class="underline"></div>
-              <div class="underline"></div>
-              <div class="underline"></div>
-              <div class="underline"></div>
-            </div>
         </div>
-        <div class="onboard"><h1>ONBOARD</h1>
-        <p>
-          Help workforce discover your product value faster. Map their journey, 
-          reduce friction at touchpoints, and delight them from the very first interaction.
-          </p>    
-       </div>
+        <div class="text-center mt-4">
         </div>
-    </div>
-
-    <!-- div-4 -->
-
-    <div class="clock">
-      <div class="content-2">
-        <h4> A powerful modular suite of cutting-edge technology product and content programs </h4>
-        <ul>
-          <p class="li-1">
-            Learn more about product 
-          </p>
-        </ul>
-        <img src="quodeck.png" alt="#" class="scale" />
-      </div>
-    </div>
-
-    <div class="create">
-      <div class="content-3">
-        <h4> CREATE CONTENT </h4>
-        <ul>
-          <p class="li-1">
-             Create mobile learning content using QuoDeck's templated authoring system. The system is designed to ensure that the content that you create is compliant with micro-learning instructional design principles... <br><br>
-             Upload your existing PDF and PPT content <br><br>
-             Author mobile responsive content directly through the inbuilt authoring tool <br><br>
-             Add rich media like animations, videos, quizzes, etc <br><br>
-          <p class="li-7">
-            Discover Content
-          </p>
-        </ul>
-        <img src="circle.png" alt="#" class="scale" />
-        <img src="square.png" alt="#" class="scale2" />
-        <img src="arrow.png" alt="#" class="scale3" />
-      </div>
-    </div>
-
-    <div class="manage">
-      <div class="content-4">
-        <h4> MANAGE TEAM </h4>
-        <ul>
-          <p class="li-1">
-            Add your team members as players.
-            Inform them of their enrollment and send them an access link to get started with Quodeck.<br><br> 
-            Active Deactivate members for each campaign and inform us we will revoke their access.<br><br>
-             Author mobile responsive content directly through the inbuilt authoring tool <br><br>
-             Announce your rewards for the campaign.<br><br>
-             View players activity and leaderboard.<br><br>
-          <p class="li-7">
-            Learn more about product
-          </p>
-        </ul>
-        <img src="circle.png" alt="#" class="scale" />
-        <img src="square.png" alt="#" class="scale2" />
-        <img src="arrow.png" alt="#" class="scale3" />
-      </div>
-    </div>
-
-    <div class="deliver">
-      <div class="content-5">
-        <h4> DELIVER ENGAGEMENT </h4>
-        <ul>
-          <p class="li-1">
-             Leverage competition to drive intense short-term campaigns with Gamified Contests, Leaderboards, Seasons, Wallets and Reward Centers<br><br>
-             Increase team engagement - choose one or more of the hyper-causal games add quiz questions to help your team to know you better<br><br>
-             Drive team participation through leaderboards and rewards <br><br>
-          <p class="li-7">
-            Learn more about product
-          </p>
-        </ul>
-        <img src="circle.png" alt="#" class="scale" />
-        <img src="square.png" alt="#" class="scale2" />
-        <img src="arrow.png" alt="#" class="scale3" />
-      </div>
-    </div>
-
-    <div class="measure">
-      <div class="content-6">
-        <h3> MEASURE IMPACT </h3>
-        <ul>
-          <p class="li-1">
-            Collect information for every user and every question that is part of the game campaign​.View dashboards and reports on players progress, interaction, comprehension and adoption<br><br> 
-            Identify high potential users by evaluating performance across multiple game campaigns​<br><br>
-            Identify topics or concepts that users get wrong more often ​
-            Know when, where and how much users interact with every game campaign​ <br><br>
-            API access to integrate the learning data into your internal MIS and reporting systems<br><br>
-          <p class="li-7">
-            Learn more about product
-          </p>
-        </ul>
-        <img src="circle.png" alt="#" class="scale" />
-        <img src="square.png" alt="#" class="scale2" />
-        <img src="arrow.png" alt="#" class="scale3" />
-      </div>
-    </div>
-
-    <div class="analyze">
-      <div class="content-7">
-        <h4> ANALYZE DATA </h4>
-        <ul>
-          <p class="li-1">
-            Standard learning systems only provide limited data on the effectiveness of your learning campaigns. QuoDeck offers marketing-style MIS to allow to better analyze and manage your learning outcomes...<br><br>
-            Collect detailed data on usage, effectiveness and engagement of your learning interventions​<br><br>
-            Collect eventstream data for deep analytics on platform usage<br><br>
-            Access our extensive set of visual and tabular reports to evaluate effectiveness and engagement​<br><br>
-            Use APIs to build custom reports – Quodeck tracks every click​ <br><br>
-          <p class="li-7">
-            Learn more about product
-          </p>
-        </ul>
-        <img src="circle.png" alt="#" class="scale" />
-        <img src="square.png" alt="#" class="scale2" />
-        <img src="arrow.png" alt="#" class="scale3" />
-      </div>
-    </div>
-
-    <div class="cards">
-      <div class="content-6">
-        <h4> EXPLORE MORE ABOUT WORKING IN QUODECK </h4>
-        <div class="cards-overlay">
-          <img src="card-1.png" class="card-1" alt="#">
-          <img src="card-2.png" class="card-2" alt="#">
-          <img src="card-3.png" class="card-3" alt="#">
-          <img src="card-4.png" class="card-4" alt="#">
+        <div class="bd-highlight client-div mb-5">
+          <div>
+            <img src="./image/client3.jpg" alt="flipcart" class="client-img" />
+          </div>
+          <div>
+            <img src="./image/client4.png" alt="isb" class="client-img" />
+          </div>
+          <div>
+            <img src="./image/client5.jpg" alt="myntra" class="client-img" />
+          </div>
+          <div>
+            <img
+              src="./image/client6.jpg"
+              alt="star sports"
+              class="client-img"
+            />
+          </div>
+          <div>
+            <img src="./image/client7.jpg" alt="vi" class="client-img" />
+          </div>
+          <div>
+            <img src="./image/client8.jpg" alt="uni" class="client-img" />
+          </div>
+          </div>
+          <div class="see" style="padding-left: 650px;">
+            <button class="btn7 my-7">SEE ALL CUSTOMERS STORIES</button>
+          </div>
         </div>
+        <div class="feature-1">
+          <div class="engage">
+              <h3>ENGAGE YOUR WORKFORCE ACROSS THEIR LIFECYCLE</h3>
+           <div class="engage1">
+              <div class="engage2">
+                  <img class="radio-checked" src="./image/radiocheck.png" />
+                  <p>Onboard</p>
+              </div>
+              <div class="dashes">
+                <div class="underline"></div>
+                <div class="underline"></div>
+                <div class="underline"></div>
+                <div class="underline"></div>
+                <div class="underline"></div>
+                <div class="underline"></div>
+                <div class="underline"></div>
+                <div class="underline"></div>
+              </div>
+              <div class="engage3">
+                  <img class="radio-checked" src="./image/radio.png" />
+                  <p>Retain</p>
+              </div>
+              <div class="dashes-1">
+                <div class="underline"></div>
+                <div class="underline"></div>
+                <div class="underline"></div>
+                <div class="underline"></div>
+                <div class="underline"></div>
+                <div class="underline"></div>
+                <div class="underline"></div>
+                <div class="underline"></div>
+              </div>
+              <div class="engage4">
+                  <img class="radio-checked" src="./image/radio.png" />
+                  <p>Grow</p>
+              </div>
+          </div>
+          <div class="onboard"><h1>ONBOARD</h1>
+          <p>
+            Help workforce discover your product value faster. Map their journey, 
+            reduce friction at touchpoints, and delight them from the very first interaction.
+            </p>    
+         </div>
+          </div>
       </div>
-    </div>
-
-    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div>
+          <div class="row div33">
+            <div class="col-sm-12 col-md-12 col-lg-6 py-5 div61">
+              <div class="react">
+                <div class="elli">
+                  <img src="./image/quodeck.png" alt="" class="quo"/>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 div200">
+              <p class="para5">
+                CREATE CONTENT
+              </p>
+              <p class="para60">
+                Create mobile learning content using QuoDeck's templated authoring system. The system is designed to ensure that the content that you create is compliant with micro-learning instructional design principles... <br> <br>
+                Upload your existing PDF and PPT content <br> <br>
+                Author mobile responsive content directly through the inbuilt authoring tool <br>
+                Add rich media like animations, videos, quizzes, etc <br> <br>
+                Structure your content into gamified learning paths <br> <br>
+              </p>
+              <h1 class="h6">
+                Learn more about product<img src="./image/Vector.jpg" alt="" class="arrow-icon"/>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row div3">
+            <div class="col-sm-12 col-md-12 col-lg-6 py-5 div61">
+              <div class="reactangle">
+                <div class="ellipse">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 div200">
+              <p class="para5">
+                CREATE CONTENT
+              </p>
+              <p class="para60">
+                Create mobile learning content using QuoDeck's templated authoring system. The system is designed to ensure that the content that you create is compliant with micro-learning instructional design principles... <br> <br>
+                Upload your existing PDF and PPT content <br> <br>
+                Author mobile responsive content directly through the inbuilt authoring tool <br>
+                Add rich media like animations, videos, quizzes, etc <br> <br>
+                Structure your content into gamified learning paths <br> <br>
+              </p>
+              <h1 class="h6">
+                DISCOVER CONTENT<img
+                  src="./image/Vector.jpg"
+                  alt=""
+                  class="arrow-icon"
+                />
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row div3 py-3">
+            <div class="col-sm-12 col-md-12 col-lg-6 py-5">
+              <p class="para7"> MANAGE TEAM</p>
+              <p class="px-5 para36">
+                Add your team members as players. Inform them of their enrollment and send them an access link to get started with Quodeck. <br> <br>
+                Active Deactivate members for each campaign and inform us we will revoke their access. <br> <br>
+                Announce your rewards for the campaign. <br> <br>
+                View players activity and leaderboard. <br> <br>
+              </p>
+              <h6 class="learn1">
+                Learn More about product<img
+                  src="./image/Vector.jpg"
+                  alt=""
+                  class="arrow-icon"
+                />
+              </h6>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 div4">
+              <div>
+                <div class="ellipse1">
+                  <div class="rectangle1"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row div3">
+            <div class="col-sm-12 col-md-12 col-lg-6 py-5 div90">
+              <div class="reactangle">
+                <div class="ellipse"></div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <p class="para37">DELIVER ENGAGEMENT</p>
+              <p class="para38">
+                Leverage competition to drive intense short-term campaigns with Gamified Contests, Leaderboards, Seasons, Wallets and Reward Centers <br> <br>
+                Increase team engagement - choose one or more of the hyper-causal games add quiz questions to help your team to know you better <br> <br>
+                Drive team participation through leaderboards and rewards <br> <br>
+              </p>
+              <h6 class="learn2">
+                Learn More About Products<img
+                  src="./image/Vector.jpg"
+                  alt=""
+                  class="arrow-icon"
+                />
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row div3 py-5">
+            <div class="col-sm-12 col-md-12 col-lg-6 py-5">
+              <p class="para40">
+                MEASURE IMPACT
+              </p>
+              <p class="para41">
+                Collect information for every user and every question that is part of the game campaign​.
+                View dashboards and reports on players progress, interaction, comprehension and adoption <br> <br>
+                Identify high potential users by evaluating performance across multiple game campaigns​ <br> <br>
+                Identify topics or concepts that users get wrong more often ​
+                Know when, here and how much users interact with every game campaign​ <br> <br>
+                API access to integrate the learning data into your internal MIS and reporting systems <br> <br>
+              </p>
+              <h6 class="learn3">
+                Learn More About Product<img
+                  src="./image/Vector.jpg"
+                  alt=""
+                  class="arrow-icon"
+                />
+              </h6>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 div4">
+              <div>
+                <div class="ellipse1">
+                  <div class="rectangle1"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row div3">
+            <div class="col-sm-12 col-md-12 col-lg-6 py-5 div90">
+              <div class="reactangle">
+                <div class="ellipse"></div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <p class="para37">ANALYZE DATA</p>
+              <p class="para38">
+                Standard learning systems only provide limited data on the effectiveness of your learning campaigns. QuoDeck offers marketing-style MIS to allow to better analyze and manage your learning outcomes... <br> <br>
+                Collect detailed data on usage, effectiveness and engagement of your learning interventions​ <br> <br>
+                Collect eventstream data for deep analytics on platform usage <br> <br>
+                Access our extensive set of visual and tabular reports to evaluate effectiveness and engagement​ <br> <br>
+                Use APIs to build custom reports – Quodeck tracks every click​ <br> <br>
+              </p>
+              <h6 class="learn2">
+                Learn More About Products<img
+                  src="./image/Vector.jpg"
+                  alt=""
+                  class="arrow-icon"
+                />
+              </h6>
+            </div>
+          </div>
+        </div>
+        
+        <div class="div10 py-5">
+          <div class="text-center">
+            <h1 class="head4">QuoDeck speaks: Hear us</h1>
+          </div>
+          <div class="div11 py-5">
+            <div class="bg-white p-4 div500 div802">
+              <img src="./image/img-promo-1@2x 1.jpg" alt="" />
+              <p class="para9">Employee Training</p>
+              <p class="para120">
+                HERE ARE THE BEST<br />METHODS FOR<br />EMPLOYEE<br />PERFORMANCE<br />EVALUATION
+              </p>
+              <div>
+                <p class="para70">
+                  READ NOW<img src="./image/Vector.png" alt="" class="img1" />
+                </p>
+              </div>
+            </div>
+            <div class="bg-white p-4 div802">
+              <img src="./image/img-promo-2@2x 1.jpg" alt="" />
+              <p class="para92">Entrepreneurial Success</p>
+              <p class="para121">ON-BOARDING FOR A<br />JOB ROLE STACK</p>
+              <div>
+                <p class="para10">
+                  READ NOW<img src="./image/Vector.png" alt="" class="img1" />
+                </p>
+              </div>
+            </div>
+            <div class="bg-white p-4 div802">
+              <img src="./image/img-promo-3@2x 1.jpg" alt="" />
+              <p class="para99">e-Learning</p>
+              <p class="para122">
+                HERE ARE THE BEST<br />METHODS FOR<br />EMPLOYEE<br />PERFORMANCE<br />EVALUATION
+              </p>
+              <div>
+                <p class="para151">
+                  READ NOW<img src="./image/Vector.png" alt="" class="img1" />
+                </p>
+              </div>
+            </div>
+            <div class="bg-white p-4 div802">
+              <img src="./image/img-promo-4@2x 1.jpg" alt="" />
+              <p class="para91">Learning Management System</p>
+              <p class="para123">
+                THE BEST WAYS TO<br />IMPROVE EMPLOYEE<br />LEARNING AND<br />EMPLOYEE
+                TRAINING
+              </p>
+              <div>
+                <p class="para11">
+                  READ NOW<img src="./image/Vector.png" alt="" class="img1" />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
       <div class="accordion-item">
         <h1> Frequently asked questions </h1>
         <h2 class="accordion-header" id="flush-headingOne">
@@ -344,96 +518,119 @@
         </div>
       </div>
     </div>
-
-    <div class="container3">
-      <img class="semi" src="Ellipse.png" alt="#">
-      <img class="ready" src="choose.png" alt="#">
-          <button class="btn1">TRY FOR FREE</button>
-          <button class="btn2 ">TALK TO SALES</button>
-  </div>
-
-  <div style="margin: 50px; display: flex; justify-content: space-around" class="content-9">
-      <div>
-          <img src="ShortLogoIcon.png" class="logo"/>
-      </div>
-      <div>
-          <ul>
-              <li class="list-header">WHY QUODECK?</li>
-              <li>Quodeck vs email</li>
-              <li>Channel</li>
-              <li>Engagment</li>
-              <li>Scale</li>
-              <li>Watch a demo</li>
-          </ul>
-      </div>
-      <div>
-          <ul>
-              <li class="list-header">PRODUCT</li>
-              <li>Features</li>
-              <li>Integrations</li>
-              <li>Enterprise</li>
-              <li>Scale</li>
-              <li>Watch a demo</li>
-          </ul>
-      </div>
-      <div>
-          <ul>
-              <li class="list-header">PRICING</li>
-              <li>Subscriptions</li>
-              <li>Paid vs free</li>
-          </ul>
-      </div>
-      <div>
-          <ul>
-              <li class="list-header">RESOURCES</li>
-              <li>Partners</li>
-              <li>Developers</li>
-              <li>Community</li>
-              <li>Apps</li>
-              <li>Blog</li>
-              <li>Help centre</li>
-              <li>Events</li>
-          </ul>
-      </div>
-      <div>
-          <ul>
-              <li class="list-header">COMPANY</li>
-              <li>About us</li>
-              <li>Leadership</li>
-              <li>Investor relations</li>
-              <li>News</li>
-              <li>Medi kit</li>
-              <li>Careers</li>
-          </ul>
-      </div>
-  </div>
-    <hr style="color: white" />
-  <div style="display: flex; flex: row; margin: 18px; font-family: roboto" class="content-10">
-      <li class="footer-content">Status</li>
-      <li class="footer-content">Privacy</li>
-      <li class="footer-content">Terms</li>
-      <li class="footer-content">Cookie preferences</li>
-      <li class="footer-content">Contact us</li>
-      <li class="footer-content">Change region</li>
-  </div>
-    <div style="
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 30px;
-      ">
-        <div class="logo7">
-          <img src="facebook.png" class="facebook" />
-          <img src="twitter.png" class="twitter" />
-          <img src="instagram.png" class="instagram" />
-          <img src="youtube.png" class="youtube" />
-          <img src="link.png" class="link" />
-           <div style="color: white ; margin-left: 21px" class="content-11">
-              © Copyright QuoDeck Technologies PLC 2022. All Rights Reserved.
+        <div class="div201">
+          <div class="ellipse2 pb-4">
+            <div class="rectangle2">
+              <div class="text-center">
+                <h1 class="head6 pt-5">WELCOME TO YOUR NEW DIGITAL HQ.</h1>
+              </div>
+              <div class="text-center div800 pb-5">
+                <button class="free-btn shadow">TRY FOR FREE</button>
+                <button class="sale-btn shadow">TALK TO SALES</button>
+              </div>
+            </div>
           </div>
+          <div class="div13">
+            <div class="div12">
+              <div class="div701">
+                <img src="./image/ShortLogoIcon.png" alt="" />
+              </div>
+              <div class="text-white py-2 div702">
+                <h6 class="text1">WHY QUODECK?</h6>
+                <h6 class="text2">Quodeck vs email</h6>
+                <h6 class="text2">Channel</h6>
+                <h6 class="text2">Engagment</h6>
+                <h6 class="text2">Scale</h6>
+                <h6 class="text2">Watch a demo</h6>
+              </div>
+              <div class="text-white py-2 div702">
+                <h6 class="text1">PRODUCT</h6>
+                <h6 class="text2">Features</h6>
+                <h6 class="text2">Integrations</h6>
+                <h6 class="text2">Enterprise</h6>
+                <h6 class="text2">Solution</h6>
+              </div>
+              <div class="text-white py-2 div702">
+                <h6 class="text1">PRICING</h6>
+                <h6 class="text2">Subscriptions</h6>
+                <h6 class="text2">Paid vs free</h6>
+              </div>
+              <div class="text-white py-2 div702">
+                <h6 class="text1">RESOURCES</h6>
+                <h6 class="text2">Partners</h6>
+                <h6 class="text2">Developers</h6>
+                <h6 class="text2">Community</h6>
+                <h6 class="text2">Apps</h6>
+                <h6 class="text2">Blog</h6>
+                <h6 class="text2">Help centre</h6>
+                <h6 class="text2">Events</h6>
+              </div>
+              <div class="text-white py-2 div702">
+                <h6 class="text1">COMPANY</h6>
+                <h6 class="text2">About us</h6>
+                <h6 class="text2">Leadership</h6>
+                <h6 class="text2">Investor relations</h6>
+                <h6 class="text2">News</h6>
+                <h6 class="text2">Medi kit</h6>
+                <h6 class="text2">Careers</h6>
+              </div>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="div14">
+                  <div>
+                    <h6 class="text-white text3">Status</h6>
+                  </div>
+                  <div>
+                    <h6 class="text-white text3">Privacy</h6>
+                  </div>
+                  <div>
+                    <h6 class="text-white text3">Terms</h6>
+                  </div>
+                  <div>
+                    <h6 class="text-white text3">Cookie preferences</h6>
+                  </div>
+                  <div>
+                    <h6 class="text-white text3">Contact us</h6>
+                  </div>
+                  <div>
+                    <h6 class="text-white text3">Change region</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6 div25">
+                <div class="d-flex flex-row div15">
+                  <div><i class="fa-brands fa-facebook text-white"></i></div>
+                  <div><i class="fa-brands fa-twitter text-white"></i></div>
+                  <div>
+                    <i class="fa-brands fa-square-instagram text-white"></i>
+                  </div>
+                  <div><i class="fa-brands fa-youtube text-white"></i></div>
+                  <div><i class="fa-brands fa-linkedin text-white"></i></div>
+                </div>
+              </div>
+            </div>
+            <h6 class="p-3 text-white text4">
+              © Copyright QuoDeck Technologies PLC 2022. All Rights Reserved.
+            </h6>
+          </div>
+        </div>
       </div>
-  </div>
+    </div>
 
-  
-
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="jquery.hislide.js"></script>
+    <script src="jquery.hislide.min.js"></script>
+    <script src="./css/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
