@@ -74,15 +74,15 @@ body {
 }
 .btnt {
   width: 150px;
-  height: 37px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 13px;
-  background: #ffbf00;
-  border-radius: 2px;
-  text-transform: uppercase;
+  height: 34px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 15px;
+background: #FFBF00;
+border-radius: 2px;
+text-transform: uppercase;
 }
 .div200 {
   margin-top: 90px;
@@ -100,11 +100,11 @@ body {
   text-align: center;
   letter-spacing: -0.02em;
   background: rgba(255, 191, 0, 0.05);
-  /* Primary/100 */
+/* Primary/100 */
 
-  border: 1px solid #ffbf00;
-  border-radius: 2px;
-  text-transform: uppercase;
+border: 1px solid #FFBF00;
+border-radius: 2px;
+text-transform: uppercase;
 }
 
 .btn1 {
@@ -1276,7 +1276,7 @@ hr {
   }
 }
 
-/* @media (max-width: 360px) {
+@media (max-width: 360px) {
   html,
   body {
     width: 100%;
@@ -1295,11 +1295,11 @@ hr {
   }
   .para1 {
     padding-left: 0;
-    padding-left: 40px;
+    padding-left: 8px;
   }
   .para2 {
     padding-left: 0;
-    padding-left: 40px;
+    padding-left: 16px;
     font-size: 22px;
   }
   .para3 {
@@ -1342,11 +1342,21 @@ hr {
     margin-left: 0;
     width: 150px;
     margin-left: 80px;
+    height: 150px;
   }
   .ellipse {
     margin-left: 0;
     margin-left: 80px;
     width: 150px;
+    height: 150px;
+  }
+  .ellipse img{
+    width: 174px;
+    height: 100px;
+    
+  }
+  .div4{
+    margin-left: 46px;
   }
   .para5 {
     margin-left: 0;
@@ -1474,7 +1484,7 @@ hr {
   .text4 {
     margin: 0;
   }
-} */
+}
 /* @media(min-width:412px){
   .ellipse2{
     border-radius: 50%;
