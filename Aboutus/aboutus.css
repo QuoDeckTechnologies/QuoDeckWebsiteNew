@@ -321,7 +321,7 @@ li img {
   font-weight: 600;
 }
 
-.side-text {
+.side-text-app {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -333,7 +333,7 @@ li img {
   margin-left: 0px;
 }
 
-.side-text p {
+.side-text-app p {
   height: 140px;
   width: 482px;
   left: 597px;
@@ -401,11 +401,37 @@ p.exampletext {
 
 }
 
+.side-header-quodeck {
+  line-height: 35px;
+  font-family: "Oswald Regular";
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: 600;
+}
+
+.side-header-entre {
+  line-height: 35px;
+  font-family: "Oswald Regular";
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: 600;
+}
+
+.side-header-learn {
+  line-height: 35px;
+  font-family: "Oswald Regular";
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: 600;
+}
 .side-sub-header {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
+  /*   font-weight: 700; */
+  font-size: 18px;
   line-height: 20px;
   color: #333333;
   margin-top: 35px;
@@ -416,8 +442,7 @@ p.exampletext {
   font-size: 18px;
   line-height: 20px;
   color: #0e0e2c;
-  margin-top: 30px;
-  font-weight: 700;
+  /*   font-weight: 700; */
   letter-spacing: 0.01rem;
 }
 
@@ -489,7 +514,7 @@ li {
 /* Responsiv CSS */
 
 @media only screen and (max-width: 1024px) {
-/*   .side-header-img {
+  /*   .side-header-img {
     width: 100%;
   }
 
@@ -567,7 +592,7 @@ li {
     margin: auto;
   }
 
-  .main-side-header {
+  .section-one {
     flex-direction: column-reverse;
   }
 
@@ -750,7 +775,7 @@ li {
     margin: auto;
   }
 
-  .main-side-header {
+  .section-one {
     flex-direction: column-reverse;
   }
 
@@ -862,5 +887,27 @@ li {
     height: 32px;
     width: 32px;
     float: right;
+  }
+}
+
+
+@media screen and (max-width: 414px) {
+
+  html,
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .side-header {
+    padding-right: 138px;
+
+  }
+  .section-one-para {
+    padding-right: 140px;
+  }
+  .nav-image h1 {
+    padding-right: 18px;
   }
 }
