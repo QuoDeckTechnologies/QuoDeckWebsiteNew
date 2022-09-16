@@ -9,31 +9,72 @@ body {
 
 .nav {
   background: #454545;
+  
+
+}
+.nav1{
+  padding-top: 17px;
 }
 .nav-a {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  
-  line-height: 15px;
+  left: 19.64%;
+right: 74.88%;
+top: 36.84%;
+bottom: 36.84%;
+
+/* Body/Strong */
+
+
+font-style: normal;
+font-weight: 600;
+line-height: 13px;
+/* identical to box height, or 115% */
+
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+}
+.nav-item{
+  margin-bottom: 9px;
 }
 .icon-search {
   padding-top: 00.5rem;
   padding-right: 15px;
+  width: 20px;
+  height: 17.66px;
 }
 .sign-text {
   left: 69.88%;
-  right: 26.44%;
-  top: 36.84%;
-  bottom: 36.84%;
-  text-decoration: none;
-  padding-right: 1rem;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
+right: 26.44%;
+top: 36.84%;
+bottom: 36.84%;
+
+/* Body/Strong */
+
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 15px;
+/* identical to box height, or 115% */
+
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+margin-right: 16px;
+text-decoration: none;
+margin-top: 8px;
+
+}
+.sign-text img{
+  margin-right: 21px;
 }
 .logo-div {
-  margin-right: 5px;
+  width: 187px;
+height: 57px;
+left: calc(50% - 187px/2 - 436px);
+top: calc(50% - 57px/2);
+  margin-right: 17px;
+  margin-left: 20px;
 }
 .logo-div img {
   width: 187px;
@@ -73,38 +114,75 @@ body {
   padding-left: 90px;
 }
 .btnt {
-  width: 150px;
-  height: 34px;
-  font-family: 'Roboto';
+  margin-right: 10px;
+  
+  left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Primary/5 */
+
+background: rgba(255, 191, 0, 0.05);
+/* Primary/100 */
+
+border: 1px solid #FFBF00;
+border-radius: 2px;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 font-size: 13px;
 line-height: 15px;
-background: #FFBF00;
-border-radius: 2px;
+/* or 115% */
+
+width: 134px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+letter-spacing: -0.02em;
 text-transform: uppercase;
+
+/* Primary/100 */
+
+color: #FFBF00;
 }
 .div200 {
   margin-top: 90px;
 }
 .btnt1 {
   margin-right: 10px;
-  width: 150px;
-  height: 34px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 15px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: -0.02em;
-  background: rgba(255, 191, 0, 0.05);
+  
+  left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Primary/5 */
+
+background: rgba(255, 191, 0, 0.05);
 /* Primary/100 */
 
 border: 1px solid #FFBF00;
 border-radius: 2px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* or 115% */
+
+width: 134px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+letter-spacing: -0.02em;
 text-transform: uppercase;
+
+/* Primary/100 */
+
+color: #FFBF00;
 }
 
 .btn1 {
@@ -137,6 +215,10 @@ text-transform: uppercase;
   border-radius: 2px;
   color: #666666;
   margin-bottom: 50px;
+}
+.head-button{
+  margin-right: 20px;
+
 }
 .btn2 {
   margin-left: 1rem;
@@ -206,13 +288,18 @@ text-transform: uppercase;
   border-bottom-right-radius: 60%;
   margin-left: -50px;
   margin-right: -0px;
-  height: 285px;
+  height: 268px;
+  width: 1410px;
 }
 .q-img {
   width: 401px;
   height: 320px;
   padding-top: 40px;
   padding-right: 105px;
+}
+.div200{
+  padding-left: 56px;
+  padding-top: 54px;
 }
 .div3 {
   background-color: #f5f5f5;
@@ -236,23 +323,18 @@ text-transform: uppercase;
 .para6 {
   margin-right: 70px;
 }
-.span2 {
-  padding-left: 25px;
-}
-.span3 {
-  padding-left: 5px;
-}
-.span4 {
-  padding-right: 25px;
-}
-.span5 {
-  padding-right: 195px;
-}
+
 .h6 {
   margin-top: 40px;
 }
 .arrow-icon {
   padding-left: 0.5rem;
+}
+.div15 >div>img{
+  width: 24px;
+height: 22.49px;
+left: 831px;
+top: 682.8px;
 }
 .div4 {
   text-align: left;
@@ -319,6 +401,7 @@ padding-left: 83px;
   width: 220px;
   height: 40px;
   text-transform: uppercase;
+  border: none;
 }
 .btn-5 {
   font-family: "Roboto";
@@ -343,11 +426,17 @@ padding-left: 83px;
   border: 1px solid #ffbf00;
   border-radius: 2px;
 }
+.p-head{
+  font-size: 56px;
+}
+.div5 > div> p{
+  font-weight: 500;
+}
 .div5 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-top: 50px;
+  padding-top: 16px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -471,12 +560,13 @@ padding-left: 83px;
 .free-btn {
   background: #ffbf00;
   border-radius: 2px;
+  border: none;
   width: 220px;
   height: 40px;
   margin-right: 50px;
-  font-family: "Roboto";
+ 
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 18px;
   line-height: 20px;
 }
@@ -488,9 +578,9 @@ padding-left: 83px;
   border-radius: 2px;
   width: 220px;
   height: 40px;
-  font-family: "Roboto";
+  
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 18px;
   line-height: 20px;
 }
@@ -510,9 +600,7 @@ padding-left: 83px;
   color: #333333;
   padding-top: 20px;
 }
-.div200 {
-  padding-top: 5rem;
-}
+
 .div201 {
   background-color: #454545;
 }
@@ -538,8 +626,7 @@ hr {
   justify-content: space-between;
   padding-left: 150px;
   padding-right: 50px;
-  margin-right: 50px;
-  margin-left: 140px;
+  margin-left: 185px;
 }
 .game3 {
   margin-left: 200px;
@@ -620,7 +707,7 @@ hr {
   margin-left: 50px;
 }
 .para40 {
-  padding-left: 143px;
+  padding-left: 104px;
   font-family: "Oswald Regular";
   font-style: normal;
   font-weight: 400;
@@ -634,7 +721,7 @@ hr {
   padding-top: 20px;
 }
 .para41 {
-  padding-left: 143px;
+  padding-left: 104px;
   margin-bottom: 50px;
   font-family: "Roboto";
   font-style: normal;
@@ -743,7 +830,7 @@ hr {
   margin-left: 8px;
 }
 .learn3 {
-  margin-left: 143px;
+  margin-left: 104px;
 }
 .div20 {
   padding-top: 50px;
@@ -753,7 +840,7 @@ hr {
   padding-left: 170px;
 }
 .text1 {
-  font-family: "Roboto";
+  
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
@@ -765,11 +852,12 @@ hr {
   /* Secondary/Text */
 
   color: #ffffff;
+  margin-bottom: 14px;
 }
 .text2 {
-  font-family: "Roboto";
+  
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 13px;
   line-height: 15px;
   /* identical to box height, or 115% */
@@ -783,13 +871,14 @@ hr {
   height: 14.06px;
   left: 293px;
   top: 378.27px;
+  margin-bottom: 20px;
 }
 .text3 {
   /* Body/Strong */
 
-  font-family: "Roboto";
+  
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 13px;
   line-height: 15px;
   /* identical to box height, or 115% */
@@ -811,7 +900,7 @@ hr {
 
   /* Body/Normal */
 
-  font-family: "Roboto";
+  
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -825,6 +914,11 @@ hr {
   /* Grey/Charcoal */
 
   border: 1px solid #454545;
+}
+.hori{
+  border: 1px solid white;
+  margin-right: 32px;
+  margin-left: 32px;
 }
 .carousel{
   position: relative;
@@ -1139,7 +1233,7 @@ hr {
     width: 255px;
   }
   .ellipse {
-    margin-left: 91px;
+    margin-left: 48px;
   }
   .ellipse img{
     width: 372px;
@@ -1221,6 +1315,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-left: 112px;
   }
   .div11 {
     text-align: center;
@@ -1230,12 +1325,12 @@ hr {
   }
   .head6 {
     font-size: 20px;
-    padding-left: 57px;
+    padding-left: 12px;
   }
   .ellipse2 {
     border-radius: 50%;
     height: 267px;
-    width: auto;
+    width: 497px;
 
   }
   .free-btn {
@@ -1251,6 +1346,10 @@ hr {
   .div701 {
     margin-left: 100px;
   }
+  .div800{
+    margin-top: 22px;
+   
+  }
 
   .div702 {
     margin-left: 135px;
@@ -1261,6 +1360,10 @@ hr {
     flex-direction: column;
     justify-content: space-between;
   }
+  .div13{
+    padding-left: 19px;
+
+  }
   .div14 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1270,6 +1373,9 @@ hr {
     margin: 0;
     padding-left: 0;
     padding-left: 33px;
+  }
+  .div25{
+    padding-top: 14px;
   }
   .text4 {
     margin: 0;
@@ -1881,6 +1987,9 @@ hr {
   .head6 {
     margin-left: 13px;
     font-size: 25px;
+  }
+  .ellipse2{
+    width: 910px;
   }
  
 }
