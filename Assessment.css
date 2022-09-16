@@ -213,6 +213,12 @@ li {
   .oval {
     border-radius: 0px;
   }
+  .rectangle .oval h2 {
+    margin-left: 35px;
+  }
+  .btnstyle .btn-warning {
+    margin-left: 50px;
+  }
   .full-footer-content {
     margin: 10px;
   }
@@ -326,8 +332,15 @@ li {
   .oval {
     border-radius: 0px;
   }
+  .rectangle .oval h2 {
+    margin-left: 25px;
+  }
+  .btnstyle .btn-warning {
+    margin-left: 40px;
+  }
   .full-footer-content {
-    margin: 10px;
+    margin: 5px;
+    justify-content: space-around;
   }
   .full-footer-content img {
     display: none;
