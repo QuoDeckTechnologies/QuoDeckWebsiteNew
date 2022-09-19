@@ -910,4 +910,7 @@ li {
   .nav-image h1 {
     padding-right: 18px;
   }
+  .side-text-app p {
+    padding-right: 100px;
+  }
 }
